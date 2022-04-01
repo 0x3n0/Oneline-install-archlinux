@@ -46,7 +46,6 @@ echo -e "ln -s /usr/share/zoneinfo/Asia/Jakarta /etc/localtime" | arch-chroot /m
 echo -e "echo 'en_US.UTF-8 UTF-8' >> /etc/locale.gen" | arch-chroot /mnt
 echo -e "locale-gen" | arch-chroot /mnt
 echo -e "echo 'LANG=en_US.UTF-8' > /etc/locale.conf" | arch-chroot /mnt
-
 echo -e "mkinitcpio -p linux" | arch-chroot /mnt
 ```
 
