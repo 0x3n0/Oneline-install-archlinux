@@ -112,7 +112,7 @@ locale-gen
 export LANG=en_US.UTF-8
 echo "LANG=en_US.UTF-8" >> /etc/locale.conf
 echo "Setting time zone"
-ln -s /usr/share/zoneinfo/Europe/Brussels /etc/localtime
+ln -s /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
 echo "Setting hostname"
 echo $hostname > /etc/hostname
 sed -i "/localhost/s/$/ $hostname/" /etc/hosts
